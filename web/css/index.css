@@ -1,0 +1,38 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+  background: rgb(58, 52, 66, 1.0);
+}
+.header{
+  background:  rgb(105, 99, 112, 1.0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  font-family: sans-serif; 
+  font-size: 20px; 
+  color: white; 
+  padding: 10px
+}  
+.header ul li{
+  float: left; 
+  list-style: none; 
+  padding: 20px;
+}
+.header a{
+  text-decoration: none;
+  color: rgb(249, 245, 255, 1.0);
+  margin-top: 50px;
+  border: 1px solid rgb(133, 122, 150, 1.0);
+  padding: 15px;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+.header a:hover{
+  background: rgb(148, 133, 171, 1.0);
+  transition: all 0.3s ease;}
+.header h2{
+  font-family: cursive;
+  cursor: pointer;
+}
+.header h2:hover{
+  color: rgb(184, 184, 184,.5)
+}

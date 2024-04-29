@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: rgb(58, 52, 66, 1.0);
+}
+
+.container-page{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	top: 50%;
+	left: 50%;
+	align-items: center;
+	transform: translate(-50%,-50%);
+	box-shadow: 0 5px 0 5px rgb(109, 102, 117,0.5);
+	border: 2px solid #ccc;
+	padding: 50px;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: auto;
+	border-radius: 15px;
+	background: rgb(76, 68, 87,0.5);
+	color: white;
+	text-shadow: rgb(26, 45, 214, 1.0);
+}
+
+.container-page p{
+	margin-top: 30px;
+}
+
+.container-page a{
+	text-decoration: none;
+	color: rgb(249, 245, 255, 1.0);
+	margin-top: 50px;
+	border: 2px solid rgb(83, 77, 84, 1.0);
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.container-page a:hover{
+	transition: all 0.3s ease;
+	background: rgba(109, 102, 110, 0.5);
+}

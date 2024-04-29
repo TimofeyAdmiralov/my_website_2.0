@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: rgb(58, 52, 66, 1.0);
+}
+
+.login-page{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	top: 50%;
+	left: 50%;
+	
+	transform: translate(-50%,-50%);
+	box-shadow: 0 5px 0 5px rgb(109, 102, 117,0.5);
+	border: 2px solid #ccc;
+	padding: 50px;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: auto;
+	border-radius: 15px;
+	background: rgb(76, 68, 87,0.5);
+	color: white;
+	text-shadow: rgb(26, 45, 214, 1.0);
+}
+
+.login-page h3{
+	margin-top: 10px;
+	margin: 20px;
+}
+
+.login-page .login{
+	text-decoration: none;
+	color: rgb(249, 245, 255, 1.0);
+	margin-top: 50px;
+	border: 2px solid rgb(83, 77, 84, 1.0);
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.login-page .register{
+	text-decoration: none;
+	color: rgb(249, 245, 255, 1.0);
+	margin-top: 10px;
+	border: 2px solid rgb(83, 77, 84, 1.0);
+	padding: 10px 10px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.login-page .help_desc{
+	margin: 20px;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+.login-page input{
+	outline: 1px rgb(137, 116, 171, 1.0) solid;
+	padding: 15px;
+	margin: 5px;
+	border-radius: 5px;
+	background-color: rgb(228, 218, 245);
+}
+
+.login-page a:hover{
+	transition: all 0.3s ease;
+	background: rgba(183, 169, 204, 0.5);
+}
+
+.login-page .help_desc .restore{
+	background: transparent;
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.login-page .help_desc .restore:hover{
+	color: rgb(138, 138, 138, 1.0);
+}
